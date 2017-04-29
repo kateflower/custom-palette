@@ -14,6 +14,10 @@ cc65
 
 http://cc65.github.io/cc65
 
+## Environment
+
+export CC65_HOME={cc65 home dir}
+
 ## Build
 
 make clean<br />
@@ -46,7 +50,7 @@ E			COLOR_YELLOW
 F			COLOR_WHITE
 ```
 
-References:
+## References
 
 Coding example are build using the Lynx Programming Tutorial:
 
