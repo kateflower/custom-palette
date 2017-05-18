@@ -114,7 +114,7 @@ lynx-stdjoy.o:
 	$(CO) --code-label _lynxjoy $*.joy
 	$(AS) -t lynx -o $@ $(AFLAGS) $*.s
 	$(RM) $*.joy
-	$(RM) $*.s
+	$(RM) $*.s	
 
 # This rule copies the tgi file from the TFI directory inside the CC65 include folder. 
 # It then runs the CO65.exe tool to convert the driver’s “o65 object file back into the 
